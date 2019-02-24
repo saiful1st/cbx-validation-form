@@ -9,12 +9,12 @@
 
         <div class="form-group col-sm-6">
             <label for="email">Name:</label>
-            <input type="text" class="form-control" id="cname" placeholder="Enter Name" name="name" minlength="2" required>
+            <input type="text" class="form-control" id="fullname" placeholder="Enter Name" name="name" minlength="2" required>
         </div>
 
         <div class="form-group col-sm-6">
             <label for="email">Email:</label>
-            <input type="email" class="form-control" id="cemail" placeholder="Enter email" name="email" required>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
         </div>
 
         <div class="form-group col-sm-6">
@@ -24,7 +24,7 @@
 
         <div class="form-group col-sm-6">
             <label for="pwd">COMMENT:</label>
-            <textarea rows="5" class="form-control" id="ccomment" placeholder="Type Your Comment" name="comment" required></textarea>
+            <textarea rows="5" class="form-control" id="comment" placeholder="Type Your Comment" name="comment" required></textarea>
         </div>
 
         <button type="submit" id="sendmessage" class="btn btn-primary mb-2">Submit</button>
